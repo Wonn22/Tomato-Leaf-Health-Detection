@@ -218,7 +218,7 @@ export function LandingPage({ navigate, result, preview }: LandingPageProps) {
         <Card>
           <FileImage className="feature-icon" />
           <h3>Fast image-based prediction</h3>
-          <p>Upload a clear tomato leaf photo and send it to the existing local prediction API.</p>
+          <p>Upload a clear tomato leaf photo and send it to the deployed prediction API.</p>
         </Card>
         <Card>
           <Layers3 className="feature-icon" />

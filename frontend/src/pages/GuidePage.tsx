@@ -37,7 +37,7 @@ export function GuidePage({ navigate }: GuidePageProps) {
         <h2>Step-by-step</h2>
         <div className="step-grid">
           <div><span>1</span><strong>Upload tomato leaf image</strong><p>Use a JPG or PNG image.</p></div>
-          <div><span>2</span><strong>Wait for model prediction</strong><p>The frontend sends the image to the local API.</p></div>
+          <div><span>2</span><strong>Wait for model prediction</strong><p>The frontend sends the image to the prediction API.</p></div>
           <div><span>3</span><strong>Review binary result</strong><p>Read Healthy or Unhealthy and confidence.</p></div>
           <div><span>4</span><strong>Save or scan another</strong><p>Use history for session review.</p></div>
         </div>

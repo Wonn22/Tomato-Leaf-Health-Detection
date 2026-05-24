@@ -11,7 +11,7 @@ import { ScanPage } from './pages/ScanPage';
 import type { Page, PredictionResult, ScanRecord } from './types/app';
 import { getProbabilitySplit } from './utils/prediction';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = (import.meta.env.VITE_API_URL || 'https://tomato-leaf-health-detection.onrender.com').replace(/\/$/, '');
 
 function App() {
   const [page, setPage] = useState<Page>(() => getPageFromHash());
